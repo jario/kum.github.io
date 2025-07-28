@@ -23,4 +23,4 @@
 </div>
 {% endif %}
 
-<div class="page__footer-copyright">U+1F16E &#x1f16e; U+1F16D {% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "by" }} <a title="DevOp Webmaster" href="https://jar.io" rel="friend">J</a> &amp; <a title="Jario" href="https://jario.com.br/" rel="friend">Jario</a>.</div>
+<div class="page__footer-copyright">&#x1f16e;{% assign site_time = site.time | date: '%Y' %}{% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "by" }} <a title="DevOp Webmaster" href="https://jar.io" rel="friend">J</a> &amp; <a title="Jario" href="https://jario.com.br/" rel="friend">Jario</a>.</div>
