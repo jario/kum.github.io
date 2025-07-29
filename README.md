@@ -1,2 +1,3 @@
 # kum.github.io
-thalita kum
+kum: aramaico - acorda!
+

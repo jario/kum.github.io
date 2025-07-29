@@ -48,17 +48,17 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
-    repo_id              : "R_kgDOPTzLhg" # Shown during giscus setup at https://giscus.app
-    category_name        : "General" # Full text name of the category
-    category_id          : "DIC_kwDOPTzLhs4CteiU" # Shown during giscus setup at https://giscus.app
-    discussion_term      : "url" # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : '0' # '1' for enabled (default), '0' for disabled
+    repo_id              : # "R_kgDOPTzLhg" # Shown during giscus setup at https://giscus.app
+    category_name        : # "General" # Full text name of the category
+    category_id          : # "DIC_kwDOPTzLhs4CteiU" # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "url" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '0' # '1' for enabled (default), '0' for disabled
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
     strict               : # 1 for enabled, 0 for disabled (default)
-    input_position       : "top" # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : 1 # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : pt # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
+    input_position       : # "top" # "top", "bottom" # The comment input box will be placed above or below the comments
+    emit_metadata        : # 1 # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang                 : # pt # "en" (default)
+    lazy                 : #  true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -90,7 +90,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "kum.mei"
 facebook:
   username               :
   app_id                 :

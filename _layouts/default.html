@@ -14,7 +14,7 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
-     <{{ content }}>
+     {{ content }}
       {% include after-content.html %}
     </div>
 
@@ -24,7 +24,7 @@
       </div>
     {% endif %}
 
-    <div id="footer" class="page__footer">
+    <div id="footer" class="page__footer">	
       <footer>
         {% include footer/custom.html %}
         {% include_cached footer.html %}
