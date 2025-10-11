@@ -1,0 +1,227 @@
+.conteudo {
+    margin: auto;
+    background-image: url("../img/bg-simulador.png");
+    font-family: 'Calibri', sans-serif;
+}
+
+
+/***************************************************************************/
+/**************************** Estilo header *****************************/
+/*************************************************************************/
+
+@keyframes digitalizacao {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.estilo-header {
+    opacity: 0;
+    animation: digitalizacao 5s ease forwards;
+    color: #cfe2ff;
+    font-size: 40px;
+}
+
+.h1-titulo {
+    font-size: 200%;
+    color: white;
+}
+
+
+/***************************************************************************/
+/**************************** Estilo coluna 1 *****************************/
+/*************************************************************************/
+
+.title-introducao {
+    font-size: 30px !important;
+}
+
+.introducao {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    #ordem-servico:hover {
+        cursor: zoom-in;
+    }
+}
+
+.btn-oculos {
+    background-color: #130f47 !important;
+    border-radius: 100% !important;
+    border: 5px solid white !important;
+    color: #130f47 !important;
+}
+
+#ponte {
+    left: 47%;
+    top: 12%;
+  }
+
+#diagonal {
+    top: 74%;
+    left: 85%;
+  }
+
+  #horizontal {
+    top: 28%;
+    right: 1%;
+  }
+
+#vertical {
+    top: 3%;
+    left: 71%;
+  }
+
+.vertical-linha,
+.horizontal-linha,
+.ponte-linha,
+.diagonal-linha {
+    background-color: #f00;
+    display: none;
+    border-radius: 100px;
+}
+
+@keyframes efeitoVertical {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 60.9%;
+    }
+}
+
+@keyframes efeitoHorizontal {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 33.8%;
+    }
+}
+
+@keyframes efeitoPonte {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 12.4%;
+    }
+}
+
+.vertical-linha {
+    width: 1%;
+    height: 0;
+    left: 74.2%;
+    top: 19.8%;
+    animation: efeitoVertical 0.5s ease forwards;
+  }
+  .horizontal-linha {
+    width: 0;
+    height: 2%;
+    right: 9.7%;
+    top: 34%;
+    animation: efeitoHorizontal 0.5s ease forwards;
+  }
+
+.ponte-linha {
+    width: 0;
+    height: 2%;
+    left: 44.3%;
+    top: 34%;
+    animation: efeitoPonte 0.5s ease forwards;
+  }
+
+  .diagonal-linha {
+    width: 35.3%;
+    height: 2%;
+    left: 53.2%;
+    top: 52%;
+    transform: rotate(41deg);
+  }
+
+.popover-header {
+    color: white !important;
+    background-color: #130f47 !important;
+}
+
+
+/***************************************************************************/
+/**************************** Estilo coluna 2 *****************************/
+/*************************************************************************/
+
+.entradas {
+    background-color: white;
+}
+
+.title-parametro {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #130F47;
+}
+
+.title-caixinha {
+    font-size: 20px;
+    color: #2330A7;
+}
+
+.caixinha {
+    border: 4px solid gray;
+}
+
+.form-control.vazio {
+    border: none !important;
+}
+
+.legenda-caixinha {
+    border-top: 1px dashed gray;
+    font-size: 15px;
+    color: #A29F9F;
+}
+
+.btn-resultados {
+    background-color: white !important;
+    color: #130F47 !important;
+    font-size: 25px !important;
+
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'48
+}
+
+
+/***************************************************************************/
+/**************************** Estilo modal ********************************/
+/*************************************************************************/
+
+.title-acerto {
+    background-color: #130F47;
+    color: white;
+    font-size: 35px !important;
+    text-transform: uppercase;
+}
+
+.title-errou {
+    background-color: #a00000;
+    color: white;
+    font-size: 35px !important;
+    text-transform: uppercase;
+}
+
+.p-errou {
+    font-size: 25px;
+}
